@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>
+            ARA Business
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style1.css">
+        <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
+        <!-- icone for menu-->
+        <script src="https://kit.fontawesome.com/7ae71a9832.js" crossorigin="anonymous"></script>
+        <!-- Iused 5type for meta-->
+<meta charset="utf-8">
+
+    <meta name="author" content="BY ARA">
+<!--the viewport to make your website look good on all devices-->
+<meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="ARA Bussiness Owner BY Assel Roaa and Adem.This web application was created to help businessmen, 
+the banking sector and companies to organize their businesses, accounts housewives, university and school students.">
+<meta name="keyword" content="Organize tasks, time management,Speed in completing tasks,Quality in services,Accuracy in arithmetic operations">
+   </head> 
+   <body>
+     <header>
+      <img src="2.png">
+      <p> "According to MY calculator Problem Doesn't Exist"</p>
+      <h1>SignUp</h1>
+      
+     </header>
+   <div id="sidebar">
+      <div class="toggle-btn" onclick="toggleSidebar(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>  
+      <div class="list">
+        <div class="item"><a href="index1.html">SignUp</a></div>
+        <div class="item"> <a href="todo.html">List to do</a></div>
+        <div class="item">  <a href="calc.html">calculator</a></div>
+      </div>
+
+    </div>
+    <div class="grid-container">
+      <div id="inp">
+     <form class="fields" onsubmit="return validation()" style="margin-top: 2.5em;" > 
+      <div class="txt" > <input  class="form-control" id="Username" type="text" placeholder="User Name"></div> 
+      <div id="name_err" style="color: red;"></div>
+
+      <div class="txt">  <input class="form-control" id="email" type="text" placeholder="Email"></div>
+      <div id="email_err"style="color: red;" ></div>
+
+      <div class="txt"><input class="form-control" id="DOB" type="text" placeholder="Date of birth"></div>  
+      <div id="DOB_err" style="color: red;"></div>
+
+      <div class="txt"><input class="form-control" id="phone" type="text" placeholder="Phone Number"></div>
+      <div id="phone_err" style="color: red;"></div>
+
+      <div class="txt"><input class="form-control" id="pass" type="password" placeholder="Password"></div>
+      <div id="pass_err"style="color: red;" ></div>
+
+      <div class="txt" > <button class="btn btn-primary"   onclick="store()" id="bt1" value="submit">Submit</button></div>
+  </form>
+</div>
+<div id="btns" > 
+   <h3>DO you accept to store your data?? </h3>
+
+<div class="flexcont">
+<button>Save to local storage</button>
+<button>Save to session storage</button>
+<button>Clear all </button>
+</div>
+</div>
+
+</div>
+
+
+
+
+ <script src="app.js"></script>
+
+
+ <footer class="footer">
+  <p> Power by:ARA Business @Amman-Jordan</p>
+ </footer>
+
+
+ 
+   </body>
+   </html>
+
+
